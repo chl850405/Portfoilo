@@ -4,16 +4,31 @@
     box-sizing: border-box;
 }
 
-body {
-    color: teal;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
 /*Start Header/Nav Styles*/
 header {
-    padding: 60px 70px;
     background-color: teal;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-size: cover;
+    background-position: center;
+
 }
+
+#wrapperHeader {
+    width: 25%;
+    background:url(assets/images/profile-photo.jpeg);
+    text-align: center;
+   }
+
+   
+#wrapperHeader,
+#header img {
+    width: 300px; /* the width of the logo image */
+    height:200px; /* the height of the logo image */
+    margin:0 auto;
+   }
 
 header h1 {
     font-weight: bold;
@@ -21,6 +36,7 @@ header h1 {
     color: whitesmoke;
     margin: 0;
     display: inline;
+
 }
 
 header nav {
@@ -53,8 +69,15 @@ footer h2 {
 }
 /*End Footer Styles*/
 
-/*Start Hero Styles*/
-.hero {
-    background-image: assets/images/profile-photo.jpg;
+
+.projects {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
+.projects img {
+width: 50%;
+}

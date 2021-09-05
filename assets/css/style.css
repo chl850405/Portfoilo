@@ -20,16 +20,14 @@ header {
 #wrapperHeader {
     width: 25%;
     text-align: center;
-   }
+}
 
-   
 #wrapperHeader,
 #header img {
     width: 300px; /* the width of the logo image */
     height:200px; /* the height of the logo image */
-    margin:0 auto;
     align-items: center;
-   }
+}
 
 header h1 {
     font-weight: bold;
@@ -67,15 +65,17 @@ footer h2 {
 
 /*Start About Me Styles*/
 #about-me {
-   margin: 10px;
-   padding: 20px;
-   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+		margin: 10px;
+		padding: 20px;
+		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .section-title {
     font-size: 38px;
     font-weight: bold;
     text-align: center;
+		margin: 20px;
+    padding: 30px;
 }
 
 .bio {
@@ -85,56 +85,36 @@ footer h2 {
 /*End About Me Styles*/
 
 /*Start My Work Styles*/
-h2 {
-    margin: 20px;
-    padding: 30px;
-    text-align: center;
-}
 .flex-container {
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
-    justify-content:space-between;
+		flex-direction: wrap;
+		flex-direction: column;
 }
 
-.flex-item {  
-
-  font-size: 22px;
-  font-weight: bold;
-  min-height: 250px;
-  margin-bottom: 15px;
-  display: flex;
-  flex-direction: column;
+.project1 h3 {
+	text-align: center;
+	font-size: 30px;
 }
 
-.flex-item span {
-    margin-top: auto;
-    width: 100%;
-    text-align: center;
-  }
-  
-
-.pic1 {
-    width: 80%;
-    align-content: center;
+.project2 img {
+	width: 400px;
+	height: 700px;
+	margin: 20px 40px ;
 }
 
-.pic2,
-.pic3,
-.pic4 {
-    width: 45%
+.project2 h3 {
+	margin: 20px 200px;
 }
 
-.pic4 {
-    height: 45%;
-}
 
-.pic5 {
-    width: 35%;
+.project3 img {
+	width: 400px;
+	margin: 20px 40px;
 }
 /*End My Work Styles*/
 
 /*Start Contact Me Styles*/
 #contact-me ul li {
-    display: inline;
+		text-align: center;
 }

@@ -14,6 +14,8 @@ header {
     flex-wrap: wrap;
     background-size: cover;
     background-position: center;
+		position: -webkit-sticky;
+		position: sticky;
 
 }
 
@@ -38,6 +40,12 @@ header h1 {
 header nav {
     float: right;
     margin: 7px 0;
+}
+
+header nav ul {
+		display: flex;
+		flex-direction: wrap;
+		justify-content: space-between;
 }
 
 header nav ul li {
@@ -85,21 +93,25 @@ footer h2 {
 /*End About Me Styles*/
 
 /*Start My Work Styles*/
-.flex-container {
+.projects {
     width: 100%;
-    display: flex;
-		flex-direction: wrap;
-		flex-direction: column;
+		margin: 0 auto;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		flex: 1;
 }
 
-.project1 h3 {
+.project1 h3,
+.project2 h3,
+.project3 h3 {
 	text-align: center;
 	font-size: 30px;
 }
 
 .project2 img {
 	width: 400px;
-	height: 700px;
+	height: 500px;
 	margin: 20px 40px ;
 }
 
@@ -110,11 +122,22 @@ footer h2 {
 
 .project3 img {
 	width: 400px;
-	margin: 20px 40px;
+	margin: 15px 40px;
+	padding-top: 30px;
+}
+.project3 h3 {
+	margin-top: 20px;
 }
 /*End My Work Styles*/
 
+#resume {
+	flex: 1;
+}
+
 /*Start Contact Me Styles*/
+#contact-me > * {
+	flex: 1;
+}
 #contact-me ul li {
 		text-align: center;
 }

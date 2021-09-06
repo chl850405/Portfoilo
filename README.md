@@ -32,7 +32,7 @@ On this page displays information about me, my work and how to contact me.
 
 * flex: 1
 
-# Contac Me
+# Contact Me
 	
 * flex: 1;
 
@@ -124,8 +124,8 @@ https://chl850405.github.io/Portfoilo/
 
 https://chl850405.github.io/run-buddy/
 
-![the mockup](./assets/images/Run Buddy.jpg)#Run-Buddy
+![the mockup](./assets/images/RunBuddy.jpg)#Run-Buddy
 
 https://chl850405.github.io/Grow-Your-Business/
 
-![the mockup](./assets/images/Grow your business.png)#Grow-Your-Business
+![the mockup](./assets/images/GrowYourBusiness.png)#Grow-Your-Business

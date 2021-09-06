@@ -28,5 +28,104 @@ On this page displays information about me, my work and how to contact me.
 * width: 400px;
 * margin: 20px 40px
 
+# Resume
+
+* flex: 1
+
+# Contac Me
+	
+* flex: 1;
+
+## @media screen and (max-width: 980px) /*Media Query For Smaller Desktop Screens and Smaller*/
+
+* header 
+padding-bottom: 0
+justify-content: center
+position: relative
+
+* header h1 
+width: 100%
+text-align: center
+
+* header nav ul 
+margin-top: 20px
+width: 100%
+justify-content: center
+
+* header nav ul li a
+font-size: 20px
+
+* footer h2, footer div 
+text-align: center
+width: 100%
+
+* hero-cta, hero-form 
+width: 100%;
+
+* section-title
+width: 80%
+
+* trainer
+flex: 0 70%;
+
+* contact-info i frame {
+flex: 1 100%;
+
+## @media screen and (max-width: 768px) /*Media Query For Tablets and Smaller*/
+
+* section
+padding: 30px 15px
+
+* step h3 
+flex: 1 100%
+text-align: center
+
+* step-info 
+flex: 2 100%
+text-align: center
+justify-content: center
+
+* step-img 
+flex: 0 32%
+margin-right: 0
+margin-top: 15px
+margin-bottom: 15px
+
+* step-text 
+flex: 100%
+
+* trainer-bio h3, trainer-bio h4 
+display: block
+
+## @media screen and (max-width: 575px) /*Media Query For Mobile Phones and Smaller*/
+* hero-form button 
+width: 100%
+
+* section-title 
+width: 95%
+
+* intro p {
+width: 100%
+
+* trainer {
+flex: 0 100%
+
+* contact-info {
+text-align: center
+
+* contact-info > * {
+flex: 0 100%
+
+* contact-form 
+order: 3
+
 
 https://chl850405.github.io/Portfoilo/
+
+https://chl850405.github.io/run-buddy/
+
+![the mockup](./assets/images/Run Buddy.jpg)#Run-Buddy
+
+https://chl850405.github.io/Grow-Your-Business/
+
+![the mockup](./assets/images/Grow your business.png)#Grow-Your-Business

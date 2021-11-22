@@ -3,6 +3,8 @@
 
 <head>
 	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 	<title>Christi's Portfolio</title>>
 
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
@@ -13,8 +15,8 @@
 	<header>
 		<div id="wrapperHeader">
 			<div id="header">
-					<img src="assets/images/profile-photo.jpeg"
-					alt="Christi Marchetti job ready wearing a tan blouse with pearls and red lipstick." />
+					<!-- <img src="assets/images/profile-photo.jpeg"
+					alt="Christi Marchetti job ready wearing a tan blouse with pearls and red lipstick." /> -->
 					<h1>
 						Christi Marchetti
 					</h1>
@@ -38,15 +40,18 @@
 				</li>
 			</ul>
 		</nav>
-		</div>
-
 	</header>
 	<!--end navigation-->
+
+	<!-- hero/jumbotron -->
+	<section class="hero">
+		
+	</section>
 
 	<!--about me-->
 	<section id="about-me">
 		<h2 class="section-title">
-			About Me
+			My Beaten Path
 		</h2>
 		<div class="bio">
 			<p>I’ve always sought out opportunities and challenges that are meaningful to me. Although my professional path
@@ -63,53 +68,69 @@
 			My Work
 		</h2>
 		<div class="projects">
-			<div class="project1">
-			<h3>
-				Run Buddy
-			</h3>
-					<a href="https://chl850405.github.io/run-buddy/">	
-						<img src="./assets/images/run-buddy.jpeg" alt="Run-Buddy"/>
+
+			<div class="project one fade">
+					<a target="_blank" href="https://chl850405.github.io/Grow-Your-Business/">	
+						<img src="./assets/images/grow-your-business.jpg" alt="Grow your business"/>
 					</a>
 			</div>  
 	
-			<div class="project2">
-				<h3>
-					Project 2
-				</h3>
-					<a target="_blank" href="https://chl850405.github.io/Grow-Your-Business/">
-						<img src="./assets/images/refactor.png"
-						alt="Grow your business.">
+			<div class="project two fade">
+					<a target="_blank" href="https://chl850405.github.io/Password-Generator/">
+						<img src="./assets/images/password-generator.png"
+						alt="Password Generator">
 					</a>
 			</div>
 
-			<div class="project3">
-				<h3>
-					Project 3
-				</h3>
-				<a target="_blank" href="https://chl850405.github.io/top-score">
-					<img target="_blank"src="./assets/images/top score.png"
-					alt="Top score.">
+			<div class="project three fade">
+				<a target="_blank" href="https://chl850405.github.io/work-day-scheduler/">
+					<img src="./assets/gif/work-day-scheduler.gif"
+					alt="Work Day Scheduler">
 				</a>
 			</div>
-			<!-- <div class="pic4">
-				<span>Project 4</span>
-				<img src="./assets/images/waterdrops.jpg" alt="Water-Droplets" />  
+
+			<div class="project four fade">
+				<a target="_blank" href="https://chl850405.github.io/top-score">
+					<img src="./assets/images/top-score.png"
+					alt="Top Score">
+				</a>
 			</div>
-			<div class="pic5">
-				<span>Project 5</span>
-				<img src="./assets/images/waterorb.jpg"
-				alt="Glass orb on a body of water with the sunsetting behind mountains" />  
-			</div> -->
+
+			<div class="project five fade">
+				<a target="_blank" href="https://youtu.be/dIQ4UGHoxXc">
+					<img src="./assets/images/README-formulator.png"
+					alt="Readme Formulator">
+				</a>
+			</div>
+
+			<div class="project six fade">
+				<a target="_blank" href="https://github.com/chl850405/Employee-tracker.git">
+					<img src="./assets/gif/employee-tracker.gif"
+					alt="Empolyee Tracker">
+				</a>
+			</div>
+	
+			<i id="prev" onclick="show_project(-1)" class="left">◀︎</i>
+			<i id="next" onclick="show_project(1)" class="right">▶︎</i>
+
+			<div class="dots">
+				<span class="dot"></span>
+				<span class="dot"></span>
+				<span class="dot"></span>
+				<span class="dot"></span>
+				<span class="dot"></span>
+				<span class="dot"></span>
+				<span class="dot"></span>
+			</div>
 		</div>	
 	</section>
 
 	<!--Resume-->
 	<section id="resume">
+		<a target="_blank" href="./assets/resume/Christi-Marchetti(1).pdf">
 		<h2 class="section-title">
 			Resume
-		</h2>
-		<a target="_blank">
-			<iframe src="Christi-Marchetti (1).pdf" style="width: 100%;height: 100%;border: none;"></iframe>
+		</h2>	
 		</a>
 	</section>
 
@@ -131,10 +152,7 @@
 		</ul>
 	</section>
 
-	<!---footer-->
-	<footer>
-		<h2>Made by: Christi Marchetti</h2>
-	</footer>
+	<script src="./assets/js/script.js"></script> 
 </body>
 
 </html>

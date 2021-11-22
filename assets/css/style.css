@@ -59,18 +59,6 @@ header nav ul li a {
 
 /*End Header/Nav Styles*/
 
-/*Start Footer Styles*/
-footer {
-    width: 100%;
-    padding: 20px 30px;
-}
-
-footer h2 {
-    text-align: center;
-    font-size: 15px;
-}
-/*End Footer Styles*/
-
 /*Start About Me Styles*/
 #about-me {
 		margin: 10px;
@@ -93,47 +81,88 @@ footer h2 {
 /*End About Me Styles*/
 
 /*Start My Work Styles*/
+
 .projects {
-    width: 100%;
-		margin: 0 auto;
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-around;
-		flex: 1;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
 }
 
-.project1 h3,
-.project2 h3,
-.project3 h3 {
-	text-align: center;
-	font-size: 30px;
+
+.project {
+    display: none;
 }
 
-.project1 img {
-	height: 500px;
+.one img,
+.two img,
+.three img,
+.four img,
+.five img,
+.six img {
+	height: 400px;
 	border-radius: 14px;
+    width: 600px;
 }
 
-.project2 img {
-	width: 400px;
-	height: 500px;
-	margin: 20px 40px ;
-	border-radius: 14px;
+#prev,
+#next {
+    position: bottom left;
+    color: whitesmoke;
+    top: 43%;
+    cursor: pointer;
+    padding: 16px;
+    transition: 0.6s;
+    /* border-radius: 0 3px 3px 0; */
+    user-select: none;
+    
 }
 
-.project2 h3 {
-	margin: 20px 200px;
+#prev {
+    left: 0;
+    border-radius: 0 3px 3px 0;
 }
 
+#next {
+    right: 0;
+    border-radius:  3px 0 0 3px ;
+}
 
-.project3 img {
-	width: 400px;
-	margin: 45px 40px;
-	border-radius: 14px;
+#prev:hover,
+#next:hover {
+    background-color: rgba(0, 0, 0, 0.6);
 }
-.project3 h3 {
-	margin-top: 20px;
+
+.left,
+.right {
+    position: absolute;
 }
+.dot {
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 0 2;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: grey;
+}
+
+.fade {
+    animation: fade 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4;}
+    to {opacity: 1;}
+    
+}
+
 /*End My Work Styles*/
 
 #resume {
@@ -148,7 +177,7 @@ footer h2 {
 		text-align: center;
 }
 /*Media Query For Smaller Desktop Screens and Smaller*/
-@media screen and (max-width: 980px) {
+/* @media screen and (max-width: 980px) {
 	header {
 			padding-bottom: 0;
 			position: relative;
@@ -193,9 +222,9 @@ footer h2 {
 	.contact-info i frame {
 		flex: 1 100%;
 	}
-}
+} */
 /*Media Query For Tablets and Smaller*/
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     section {
         padding: 30px 15px;
 }
@@ -225,10 +254,10 @@ footer h2 {
     .trainer-bio h3, .trainer-bio h4 {
         display: block;
     }
-}
+} */
 
 /*Media Query For Mobile Phones and Smaller*/
-@media screen and (max-width: 575px) {
+/* @media screen and (max-width: 575px) {
     .hero-form button {
         width: 100%;
     }
@@ -256,7 +285,7 @@ footer h2 {
     .contact-form {
         order: 3;
     }
-}
+} */
 /* end media query styles*/
 
 

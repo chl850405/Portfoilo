@@ -13,9 +13,8 @@ header {
     flex-wrap: wrap;
     background-size: cover;
     background-position: center;
-		position: -webkit-sticky;
-		position: sticky;
-        margin: 0%;
+    position: sticky;
+    margin: 0%;
 
 }
 
@@ -61,16 +60,16 @@ header nav ul li a {
 
 /*Start About Me Styles*/
 #about-me {
-		margin: 10px;
-		padding: 20px;
-		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.section-title {
+.section-title{
     font-size: 38px;
     font-weight: bold;
     text-align: center;
-		margin: 20px;
+	margin: 20px;
     padding: 30px;
 }
 
@@ -165,17 +164,45 @@ header nav ul li a {
 
 /*End My Work Styles*/
 
+
 #resume {
-	flex: 1;
+	font-size: 20px;
+    margin-left: 80px;
 }
 
 /*Start Contact Me Styles*/
-#contact-me > * {
-	flex: 1;
+
+#flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
-#contact-me ul li {
-		text-align: center;
+
+#contact-message {
+    height: 100px;
+    width: 300px;
+    margin-top: 10px;
+    border: 1px solid whitesmoke;
 }
+#contact-email,
+#contact-name {
+    border: 1px solid whitesmoke;
+    margin: 10px;
+    width: 210px
+}
+
+.headShot {
+    height: 200px;
+    margin: 10px 30px 10px 40px ;
+}
+
+.github,
+.linkedin{
+	display: inline;
+    float: right;
+    margin-right: 40px;
+    margin-bottom: 20px;
+} 
 /*Media Query For Smaller Desktop Screens and Smaller*/
 /* @media screen and (max-width: 980px) {
 	header {

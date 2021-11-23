@@ -1,20 +1,32 @@
 * {
     padding: 0;
-    box-sizing: border-box;
-    background-color: teal;
-    color: whitesmoke;
+    box-sizing: border-box
+}
+:root {
+    --primary-color: whitesmoke;
+    --secondary-color: black;
 }
 
+body {
+    background-color: var(--secondary-color);
+}
 /*Start Header/Nav Styles*/
 header {
-    padding: 20px 30px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    background-size: cover;
-    background-position: center;
-    position: sticky;
-    margin: 0%;
+    height: 300px;
+        padding: 20px 30px;
+        background-color: var(--tertiary-color);
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        background-image: url("../images/geometric-shapes-art.jpg");
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        background-position: 80%;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        z-index: 9999;
 
 }
 
@@ -33,6 +45,7 @@ header {
 header h1 {
     font-weight: bold;
     font-size: 30px;
+    color: var(--secondary-color);
 }
 
 header nav {
@@ -54,6 +67,7 @@ header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 18px;
+    color: var(--secondary-color);
 }
 
 /*End Header/Nav Styles*/
@@ -63,6 +77,9 @@ header nav ul li a {
     margin: 10px;
     padding: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.font {
+    color: var(--primary-color);
 }
 
 .section-title{

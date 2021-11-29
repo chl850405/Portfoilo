@@ -1,7 +1,4 @@
-* {
-    padding: 0;
-    box-sizing: border-box
-}
+
 :root {
     --primary-color: whitesmoke;
     --secondary-color: black;
@@ -14,32 +11,18 @@ body {
 header {
     height: 300px;
         padding: 20px 30px;
-        background-color: var(--tertiary-color);
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
         background-image: url("../images/geometric-shapes-art.jpg");
         background-size: cover;
-        background-position: center;
+        background-position: center center;
+        background-repeat: no-repeat;
         background-attachment: fixed;
-        background-position: 80%;
-        position: -webkit-sticky;
         position: sticky;
         top: 0;
         z-index: 9999;
 
-}
-
-#wrapperHeader {
-    width: 25%;
-    text-align: center;
-}
-
-#wrapperHeader,
-#header img {
-    width: 300px; /* the width of the logo image */
-    height:200px; /* the height of the logo image */
-    align-items: center;
 }
 
 header h1 {
@@ -55,7 +38,6 @@ header nav {
 
 header nav ul {
 		display: flex;
-		flex-direction: wrap;
 		justify-content: space-around;
 }
 
@@ -64,7 +46,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-    margin: 0 30px;
+    margin: 0 5px;
     font-weight: lighter;
     font-size: 18px;
     color: var(--secondary-color);
@@ -97,21 +79,25 @@ header nav ul li a {
 /*End About Me Styles*/
 
 /*Start My Work Styles*/
+.my-work {
+    display: flex;
+}
 
 .projects {
     margin: auto;
     display: flex;
-    justify-content: space-around;
     align-items: center;
     flex-direction: column;
     position: relative;
 }
 
-
 .project {
     display: none;
 }
 
+img {
+    display: flex;
+}
 .one img,
 .two img,
 .three img,
@@ -181,6 +167,9 @@ header nav ul li a {
 
 /*End My Work Styles*/
 
+.contact-me {
+    display: flex;
+}
 
 #resume {
 	font-size: 20px;
@@ -221,115 +210,96 @@ header nav ul li a {
     margin-bottom: 20px;
 } 
 /*Media Query For Smaller Desktop Screens and Smaller*/
-/* @media screen and (max-width: 980px) {
+@media screen and (max-width: 768px)  {
 	header {
-			padding-bottom: 0;
-			position: relative;
-	}
-
-	header h1 {
-			width: 100%;
-			text-align: center;
-            margin-right: 20px;
-            
+        width:100%;
+        padding-bottom: 0;
 	}
 
 	header nav ul {
-			margin-top: 20px;
-			width: 100%;
-			justify-content: space-around;
-	}
+		display: inline;
 
-	header nav ul li a {
-		font-size: 20px;
 	}
-	
-	footer h2,
-	footer div {
-		text-align: center;
-		width: 100%;
-	}
+    #about-me {
+        display: flex;
+    }
 
-	.hero-cta,
-	.hero-form {
-		width: 100%;
-	}
 
-	.section-title {
-		width: 80%;
-	}
-
-	.trainer {
-		flex: 0 70%;
-	}
-
-	.contact-info i frame {
-		flex: 1 100%;
-	}
-} */
-/*Media Query For Tablets and Smaller*/
-/* @media screen and (max-width: 768px) {
-    section {
-        padding: 30px 15px;
+    .one img,
+    .two img,
+    .three img,
+    .four img,
+    .five img,
+    .six img {
+        height: 300px;
+        border-radius: 14px;
+        width: 500px
 }
 
-    .step h3 {
-        flex: 1 100%;
-        text-align: center;
-    }
-
-    .step-info {
-        flex: 2 100%;
-        text-align: center;
-        justify-content: space-around;
-    }
-
-    .step-img {
-        flex: 0 32%;
-        margin-right: 0;
-        margin-top: 15px;
-        margin-bottom: 15px;
-    }
-
-    .step-text {
-        flex: 100%;
-    }
-    
-    .trainer-bio h3, .trainer-bio h4 {
-        display: block;
-    }
-} */
+} 
 
 /*Media Query For Mobile Phones and Smaller*/
-/* @media screen and (max-width: 575px) {
-    .hero-form button {
-        width: 100%;
+@media screen and (max-width: 575px) {
+    header {
+        width:90%;
+        padding-bottom: 0;
+	}
+
+	header nav ul {
+		display: flex;
+        font-size: 12px;
+	}
+
+    header nav ul a {
+        margin: 0;
     }
 
-    .section-title {
-        width: 95%;
+
+    #about-me {
+        display: flex;
     }
 
-    .intro p {
-        width: 100%;
-    }
+    .one img,
+    .two img,
+    .three img,
+    .four img,
+    .five img,
+    .six img {
+        height: 200px;
+        border-radius: 14px;
+        width: 300px
+}
 
-    .trainer {
-        flex: 0 100%;
-    }
+#flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
-    .contact-info {
-        text-align: center;
-    }
+#contact-message {
+    height: 75px;
+    width: 200px;
+    margin-top: 10px;
+    border: 1px solid whitesmoke; 
+}
+#contact-email,
+#contact-name {
+    border: 1px solid whitesmoke;
+    margin: 10px;
+    width: 190px
+}
 
-    .contact-info > * {
-        flex: 0 100%;
-    }
+.email {
+    font-size: 12px;
+    float: right;
+}
 
-    .contact-form {
-        order: 3;
-    }
-} */
+.headShot {
+    height: 150px;
+    margin: 10px 30px 10px 40px ; 
+}
+
+} 
 /* end media query styles*/
 
 

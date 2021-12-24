@@ -102,7 +102,8 @@ img {
 .three img,
 .four img,
 .five img,
-.six img {
+.six img,
+.seven img {
 	height: 400px;
 	border-radius: 14px;
     width: 600px;

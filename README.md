@@ -122,10 +122,6 @@ order: 3
 
 https://chl850405.github.io/Portfoilo/
 
-https://chl850405.github.io/run-buddy/
-
-![the mockup](./assets/images/RunBuddy.jpg)#Run-Buddy
-
 https://chl850405.github.io/Grow-Your-Business/
 
 ![the mockup](./assets/images/GrowYourBusiness.png)#Grow-Your-Business
@@ -134,3 +130,26 @@ https://chl850405.github.io/top-score
 
 ![the mockup](./assets/images/top-score.png)
 #top-score
+
+https://chl850405.github.io/Password-Generator/
+
+![the mockup](./assets/images/password-generator.png)
+
+https://chl850405.github.io/work-day-scheduler/
+
+![](./assets/gif/work-day-scheduler.gif)
+
+https://www.youtube.com/watch?v=dIQ4UGHoxXc
+
+![the mockup](./assets/images/README-formulator.png)
+
+https://github.com/chl850405/Employee-tracker
+
+![](./assets/gif/employee-tracker.gif)
+
+https://agile-tor-28300.herokuapp.com
+
+![the mockup](./assets/images/Heroverse.png)
+
+
+

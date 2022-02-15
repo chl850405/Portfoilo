@@ -181,12 +181,12 @@
         <h2 class="section-title">Contact Me</h2>
         <div id="flex-container">
           <div class="containerOne">
-            <p class="email">
+            <!-- <p class="email">
               <strong>Email:</strong>
               <a href="mailto:christimarchetti@gmail.com"
                 >christimarchetti@gmail.com</a
               >
-            </p>
+            </p> -->
             <img
               class="headShot"
               src="./assets/images/head-shot.JPG"
@@ -205,16 +205,15 @@
           </div>
 
           <div class="containerTwo">
-            <form class="contact-name">
+            <form action="https://formsubmit.co/christimarchetti@gmail.com" method="POST" >
               <label for="contact-name">Your Name</label>
-              <input type="text" id="contact-name" placeholder="Your Name" />
-            </form>
-            <form class="contact-email">
+              <input class="contact-name" type="text" id="contact-name" placeholder="Your Name" required/>
+           
+            <input type="hidden" name="_next" value="https://chl850405.github.io/Project-Hoard/pages/thankyou.html">
+         
               <label for="contact-email">Your Email</label>
-              <input type="text" id="contact-email" placeholder="Your Email" />
-            </form>
-            <form class="contact-message">
-              <textarea id="contact-message" placeholder="Message"></textarea>
+              <input  class="contact-email" type="text" id="contact-email" placeholder="Your Email" required/>
+              <textarea class="contact-message" id="contact-message" placeholder="Message"></textarea>
               <button type="submit">Submit</button>
             </form>
           </div>

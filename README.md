@@ -1,155 +1,73 @@
-# Portfoilo
+# Project Hoard
 
-On this page displays information about me, my work and how to contact me.
+## Description 
+Project Hoard is an application containg a little about myself,my top projects, contact information, and resume.
 
-## Header
+## Table of Contents
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
 
-* padding: 20px 30px
-* display: flex
-* justify-content: space-between
-* flex-wrap: wrap
-* background-size: cover
-* background-position: center
+## Installation 
+The user should clone the repository from GitHub. Once updates are made you can commit any changes and deploy to github.
 
-## About Me
+## Usage 
+The navbar will navigate the user to different sections of the page titled About Me, Contact, Portfolio, and Resume. When on the Portfolio section the user can scroll through each project using the left and right arrows on each side. The user can also navigate to each project page by clicking on the project picture and can access the GitHub by clicking the link below the photo. Users can dowload a copy of my resume by clicking the resume link at the bottom of the page under my headshot photo. For any questions regarding any of my projects or further information the user can click on my email link above my head shot photo.
 
-* margin: 10px
-* padding: 20px
-* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+LIVE URL: https://chl850405.github.io/Project-Hoard/
 
-## Project 2 Img 
-
-* width: 400px
-* height: 700px
-* margin: 20px 40px 
-
-## Project 3 Img
-
-* width: 400px;
-* margin: 20px 40px
-
-# Resume
-
-* flex: 1
-
-# Contact Me
-	
-* flex: 1;
-
-## @media screen and (max-width: 980px) /*Media Query For Smaller Desktop Screens and Smaller*/
-
-* header 
-padding-bottom: 0
-justify-content: center
-position: relative
-
-* header h1 
-width: 100%
-text-align: center
-
-* header nav ul 
-margin-top: 20px
-width: 100%
-justify-content: center
-
-* header nav ul li a
-font-size: 20px
-
-* footer h2, footer div 
-text-align: center
-width: 100%
-
-* hero-cta, hero-form 
-width: 100%;
-
-* section-title
-width: 80%
-
-* trainer
-flex: 0 70%;
-
-* contact-info i frame {
-flex: 1 100%;
-
-## @media screen and (max-width: 768px) /*Media Query For Tablets and Smaller*/
-
-* section
-padding: 30px 15px
-
-* step h3 
-flex: 1 100%
-text-align: center
-
-* step-info 
-flex: 2 100%
-text-align: center
-justify-content: center
-
-* step-img 
-flex: 0 32%
-margin-right: 0
-margin-top: 15px
-margin-bottom: 15px
-
-* step-text 
-flex: 100%
-
-* trainer-bio h3, trainer-bio h4 
-display: block
-
-## @media screen and (max-width: 575px) /*Media Query For Mobile Phones and Smaller*/
-* hero-form button 
-width: 100%
-
-* section-title 
-width: 95%
-
-* intro p {
-width: 100%
-
-* trainer {
-flex: 0 100%
-
-* contact-info {
-text-align: center
-
-* contact-info > * {
-flex: 0 100%
-
-* contact-form 
-order: 3
-
-
-https://chl850405.github.io/Portfoilo/
+GitHub URL: https://github.com/chl850405/Project-Hoard.git 
 
 https://chl850405.github.io/Grow-Your-Business/
 
-![the mockup](./assets/images/GrowYourBusiness.png)#Grow-Your-Business
+![the mockup](./assets/images/grow-your-business.jpg)
+# Grow Your Business
 
 https://chl850405.github.io/top-score
 
 ![the mockup](./assets/images/top-score.png)
-#top-score
+# Top Score
 
 https://chl850405.github.io/Password-Generator/
 
 ![the mockup](./assets/images/password-generator.png)
+# Password Generator
 
 https://chl850405.github.io/work-day-scheduler/
 
 ![](./assets/gif/work-day-scheduler.gif)
+# Work Day Scheduler
 
 https://www.youtube.com/watch?v=dIQ4UGHoxXc
 
 ![the mockup](./assets/images/README-formulator.png)
+# README Formulator
 
 https://github.com/chl850405/Employee-tracker
 
 ![](./assets/gif/employee-tracker.gif)
+# Employee Tracker
 
 https://agile-tor-28300.herokuapp.com
 
 ![the mockup](./assets/images/Heroverse.png)
+# Heroverse
+
+
+## License 
+This project is not licensed
+
+## Contributing 
+Contributors should read the installation section. 
+
+## Tests
+There are no tests for this application. 
+
+## Questions
+If you have any questions about this projects, please contact me directly at christimarchetti@gmail.com. You can view more of my projects at https://github.com/chl850405.
 
 
 

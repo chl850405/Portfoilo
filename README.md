@@ -1,123 +1,39 @@
 # Project Hoard
 
-On this page displays information about me, my work and how to contact me.
+## Description 
+Project Hoard is an application containg a little about myself,my top projects, contact information, and resume.
 
-## Header
+## Table of Contents
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
 
-* padding: 20px 30px
-* display: flex
-* justify-content: space-between
-* flex-wrap: wrap
-* background-size: cover
-* background-position: center
+## Installation 
+The user should clone the repository from GitHub. Once updates are made you can commit any changes and deploy to github.
 
-## About Me
+## Usage 
+The navbar will navigate the user to different sections of the page titled About Me, Contact, Portfolio, and Resume. When on the Portfolio section the user can scroll through each project using the left and right arrows on each side. The user can also navigate to each project page by clicking on the project picture.
 
-* margin: 10px
-* padding: 20px
-* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+![The mockup](./assets/weather-dashboard.png) Real Time Weather
 
-## Project 2 Img 
+https://github.com/chl850405/real-time-weather.git
 
-* width: 400px
-* height: 700px
-* margin: 20px 40px 
+https://chl850405.github.io/real-time-weather/
 
-## Project 3 Img
+## License 
+This project is not licensed
 
-* width: 400px;
-* margin: 20px 40px
+## Contributing 
+Contributors should read the installation section. 
 
-# Resume
+## Tests
+There are no tests for this application. 
 
-* flex: 1
-
-# Contact Me
-	
-* flex: 1;
-
-## @media screen and (max-width: 980px) /*Media Query For Smaller Desktop Screens and Smaller*/
-
-* header 
-padding-bottom: 0
-justify-content: center
-position: relative
-
-* header h1 
-width: 100%
-text-align: center
-
-* header nav ul 
-margin-top: 20px
-width: 100%
-justify-content: center
-
-* header nav ul li a
-font-size: 20px
-
-* footer h2, footer div 
-text-align: center
-width: 100%
-
-* hero-cta, hero-form 
-width: 100%;
-
-* section-title
-width: 80%
-
-* trainer
-flex: 0 70%;
-
-* contact-info i frame {
-flex: 1 100%;
-
-## @media screen and (max-width: 768px) /*Media Query For Tablets and Smaller*/
-
-* section
-padding: 30px 15px
-
-* step h3 
-flex: 1 100%
-text-align: center
-
-* step-info 
-flex: 2 100%
-text-align: center
-justify-content: center
-
-* step-img 
-flex: 0 32%
-margin-right: 0
-margin-top: 15px
-margin-bottom: 15px
-
-* step-text 
-flex: 100%
-
-* trainer-bio h3, trainer-bio h4 
-display: block
-
-## @media screen and (max-width: 575px) /*Media Query For Mobile Phones and Smaller*/
-* hero-form button 
-width: 100%
-
-* section-title 
-width: 95%
-
-* intro p {
-width: 100%
-
-* trainer {
-flex: 0 100%
-
-* contact-info {
-text-align: center
-
-* contact-info > * {
-flex: 0 100%
-
-* contact-form 
-order: 3
+## Questions
+If you have any questions about this projects, please contact me directly at christimarchetti@gmail.com. You can view more of my projects at https://github.com/chl850405.
 
 
 https://chl850405.github.io/Portfoilo/

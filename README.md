@@ -66,6 +66,12 @@ Contributors should read the installation section.
 ## Tests
 There are no tests for this application. 
 
+## Future Plans
+* make mobile responsive 
+* further styling for page
+
+
+
 ## Questions
 If you have any questions about this projects, please contact me directly at christimarchetti@gmail.com. You can view more of my projects at https://github.com/chl850405.
 

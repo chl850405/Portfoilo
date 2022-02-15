@@ -70,18 +70,6 @@ There are no tests for this application.
 If you have any questions about this projects, please contact me directly at christimarchetti@gmail.com. You can view more of my projects at https://github.com/chl850405.
 
 
-## License 
-This project is not licensed
-
-## Contributing 
-Contributors should read the installation section. 
-
-## Tests
-There are no tests for this application. 
-
-## Questions
-If you have any questions about this projects, please contact me directly at christimarchetti@gmail.com. You can view more of my projects at https://github.com/chl850405.
-
 
 
 
